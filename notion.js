@@ -1,6 +1,8 @@
 import { Client } from "@notionhq/client";
 import { config } from "dotenv";
 import request from "request";
+import {appendFile} from "fs";
+import cron from "node-cron";
 config();
 
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
@@ -37,21 +39,19 @@ async function getPage(pageId) {
 
 async function updateCurrentPrice(id, newPrice) {
   try {
-    const response = await notion.pages.update({
-      page_id: id,
-      properties: {
-        "Current price/unit": {
-          number: newPrice,
-        },
+      const response = await notion.pages.update({
+    page_id: id,
+    properties: {
+      "Current price/unit": {
+        number: newPrice,
       },
-    });
+    },
+  });
     console.log("Success! Entry updated.");
   } catch (error) {
     console.error("Error:", error);
   }
 }
-
-// updateCurrentPrice(etheriumId, 250);
 
 async function getCurrentCryptoPrice(from) {
   const url = `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${from}&to_currency=EUR&apikey=${stockToken}`;
@@ -86,8 +86,10 @@ async function dollarToEuro() {
       },
       (err, res, data) => {
         if (err) {
+	  saveError(err)
           reject("Error:", err);
         } else if (res.statusCode !== 200) {
+	  saveError("Wrong Status code: "+ res.statusCode)
           reject("Status:", res.statusCode);
         } else if (!data["Realtime Currency Exchange Rate"]) {
           console.log(data);
@@ -111,8 +113,10 @@ async function getCurrentStockPrice(symbol) {
       },
       (err, res, data) => {
         if (err) {
+	  saveError(err)
           reject("Error:", err);
         } else if (res.statusCode !== 200) {
+	  saveError("Wrong status code: "+ res.statusCode)
           reject("Status:", res.statusCode);
         } else {
           resolve(Number(Object.values(data["Time Series (5min)"])[0]["4. close"]));
@@ -160,6 +164,34 @@ async function updateInvestmentDatabase() {
   console.table(stocks);
   console.table(cryptos);
   cryptos.forEach((crypto) => updateCurrentPrice(crypto.page, crypto.price));
+  saveResults(stocks, cryptos)
 }
 
-updateInvestmentDatabase();
+
+function saveResults(stocks = [], cryptos = [], fonds = []) {
+  const content = `{
+	"time": ${Date.now()},
+        "result": {
+            "stocks": ${JSON.stringify(stocks)},
+            "cryptos": ${JSON.stringify(cryptos)},
+            "fonds": ${JSON.stringify(fonds)}
+        }`
+  appendFile("log.json",content, err => {
+  if (err) {
+    console.error(err)
+    return
+  }
+})
+}
+
+function saveError(error) {
+  appendFile("errors.txt", error, err => { 
+  if (err) {
+    console.error(err)
+    return
+}
+})
+}
+cron.schedule('*/5 * * * * ', () => {
+  updateInvestmentDatabase();
+})
