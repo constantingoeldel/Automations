@@ -2068,3 +2068,163 @@
         "fonds": []
     }
 },
+{
+    "time": 1631137567871,
+    "result": {
+        "stocks": [
+            {
+                "name": "Apple",
+                "symbol": "AAPL",
+                "page": "cbe30f20efea4e6bbd4358ff6618390d",
+                "price": 132.603284
+            },
+            {
+                "name": "Disney",
+                "symbol": "DIS",
+                "page": "72e4b2e4805f4a6f99ee7b9f3c9f6437",
+                "price": 155.873993
+            },
+            {
+                "name": "Amazon",
+                "symbol": "AMZN",
+                "page": "b13b904bee5d4840bc59f8172bba722e",
+                "price": 2970.538571
+            }
+        ],
+        "cryptos": [
+            {
+                "name": "Etherium",
+                "symbol": "ETH",
+                "page": "7ba96ba1ad464fb68920f2b3608fdba6",
+                "price": 2937.734056
+            },
+            {
+                "name": "Cardano",
+                "symbol": "ADA",
+                "page": "2bc7c7883edb436082e0d0c2475a0538",
+                "price": 2.0155414
+            },
+            {
+                "name": "Solana",
+                "symbol": "SOL",
+                "page": "1e4247f7ac354856bd1fdd36c2b0fd8b",
+                "price": 165.210114
+            }
+        ],
+        "fonds": []
+    }
+},{
+	"time": 1631137790678,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2934.655344},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.013004},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":166.047456}],
+            "fonds": []
+        }},{
+	"time": 1631137865046,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2929.402926},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0096208},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":165.260862}],
+            "fonds": []
+        }},{
+	"time": 1631138162702,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.61896},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.89242000000002},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.88974}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2913.95016},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0028544},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":162.698088}],
+            "fonds": []
+        }},{
+	"time": 1631138463787,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.556256},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.818712},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2969.485064}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2920.065294},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0096208},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":162.968744}],
+            "fonds": []
+        }},{
+	"time": 1631138765862,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.587608},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.855566},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.187402}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2940.246082},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0282284},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":163.247858}],
+            "fonds": []
+        }},{
+	"time": 1631139068744,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2951.139986},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0349948},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":165.294694}],
+            "fonds": []
+        }},{
+	"time": 1631139363305,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2972.953168},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0536024},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":165.675304}],
+            "fonds": []
+        }},{
+	"time": 1631139662756,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2998.267962},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.063752},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":164.330482}],
+            "fonds": []
+        }},{
+	"time": 1631139962532,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2998.48787},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.0781306},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":162.596592}],
+            "fonds": []
+        }},{
+	"time": 1631140264919,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.587608},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.855566},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.187402}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":3000.754614},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.084897},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":162.994118}],
+            "fonds": []
+        }},{
+	"time": 1631140567307,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":3001.735363},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1139041},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":161.964473}],
+            "fonds": []
+        }},{
+	"time": 1631140863753,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.587608},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.855566},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.187402}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":3001.600019},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1257467},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":160.721}],
+            "fonds": []
+        }},{
+	"time": 1631141164008,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.587608},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.855566},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.187402}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":3006.853058},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1502778},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":160.55182}],
+            "fonds": []
+        }},{
+	"time": 1631141462631,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.587608},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.855566},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.187402}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2999.925137},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1291303},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":160.577197}],
+            "fonds": []
+        }},{
+	"time": 1631141762648,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.587608},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.855566},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.187402}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2992.058267},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1198254},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":162.32821}],
+            "fonds": []
+        }},{
+	"time": 1631142064969,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2992.734987},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1139041},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":163.2587}],
+            "fonds": []
+        }},{
+	"time": 1631142369065,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2977.576459},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1274385},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":163.326372}],
+            "fonds": []
+        }},{
+	"time": 1631142663744,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2983.167858},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1578909},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":163.377126}],
+            "fonds": []
+        }},{
+	"time": 1631142963589,
+        "result": {
+            "stocks": [{"name":"Apple","symbol":"AAPL","page":"cbe30f20efea4e6bbd4358ff6618390d","price":132.603284},{"name":"Disney","symbol":"DIS","page":"72e4b2e4805f4a6f99ee7b9f3c9f6437","price":155.873993},{"name":"Amazon","symbol":"AMZN","page":"b13b904bee5d4840bc59f8172bba722e","price":2970.538571}],
+            "cryptos": [{"name":"Etherium","symbol":"ETH","page":"7ba96ba1ad464fb68920f2b3608fdba6","price":2978.4139},{"name":"Cardano","symbol":"ADA","page":"2bc7c7883edb436082e0d0c2475a0538","price":2.1452024},{"name":"Solana","symbol":"SOL","page":"1e4247f7ac354856bd1fdd36c2b0fd8b","price":163.00493}],
+            "fonds": []
+        }},
