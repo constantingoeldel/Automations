@@ -56,7 +56,7 @@ async function dollarToEuro() {
       },
       (err, res, data) => {
         if (err) {
-          saveError(err);
+          saveError(String(err));
           reject("Error:", err);
         } else if (res.statusCode !== 200) {
           saveError("Wrong Status code: " + res.statusCode);
@@ -73,7 +73,7 @@ async function dollarToEuro() {
 }
 
 async function getCurrentStockPrice(symbol) {
-  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${symbol}&interval=5min&&apikey=${stockToken}`;
+  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${symbol}&interval=5min&apikey=${stockToken}`;
   const result = await new Promise((resolve, reject) => {
     request.get(
       {
@@ -83,12 +83,18 @@ async function getCurrentStockPrice(symbol) {
       },
       (err, res, data) => {
         if (err) {
-          saveError(err);
+          saveError(String(err));
           reject("Error:", err);
         } else if (res.statusCode !== 200) {
           saveError("Wrong status code: " + res.statusCode);
           reject("Status:", res.statusCode);
+        } else if (!data) {
+          reject("No Data");
+        } else if (!data["Time Series (5min)"]) {
+          console.log(data);
+          reject("No further data");
         } else {
+          console.log(url);
           resolve(Number(Object.values(data["Time Series (5min)"])[0]["4. close"]));
         }
       }
@@ -110,22 +116,27 @@ const cryptos = [
 ];
 
 async function updateInvestmentDatabase() {
-  await Promise.all(
-    stocks.map(async (stock) => {
-      stock.price = await getCurrentStockPrice(stock.symbol);
-    })
-  );
-  await new Promise((resolve) => setTimeout(resolve, 60000));
-  await Promise.all(
-    cryptos.map(async (crypto) => {
-      crypto.price = await getCurrentCryptoPrice(crypto.symbol);
-    })
-  );
-  const exchangeRate = await dollarToEuro();
-  stocks.forEach((stock) => {
-    stock.price = stock.price * exchangeRate;
-    updateCurrentPrice(stock.page, stock.price);
-  });
+  try {
+    await Promise.all(
+      stocks.map(async (stock) => {
+        stock.price = await getCurrentStockPrice(stock.symbol);
+      })
+    );
+    await new Promise((resolve) => setTimeout(resolve, 60000));
+    await Promise.all(
+      cryptos.map(async (crypto) => {
+        crypto.price = await getCurrentCryptoPrice(crypto.symbol);
+      })
+    );
+    const exchangeRate = await dollarToEuro();
+
+    stocks.forEach((stock) => {
+      stock.price = stock.price * exchangeRate;
+      updateCurrentPrice(stock.page, stock.price);
+    });
+  } catch (error) {
+    console.error(error);
+  }
   cryptos.forEach((crypto) => updateCurrentPrice(crypto.page, crypto.price));
   saveResults(stocks, cryptos);
   console.table(stocks);

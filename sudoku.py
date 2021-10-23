@@ -88,10 +88,11 @@ def solve(sudoku):
 
 print_sudoku(sudoku)
 solve(sudoku)
-print("___________________")
+print("__________________________")
 print_sudoku(sudoku)
 
+print("__________________________")
 print_sudoku(sudoku2)
 solve(sudoku2)
-print("___________________")
+print("__________________________")
 print_sudoku(sudoku2)
